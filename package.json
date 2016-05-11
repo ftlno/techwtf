@@ -1,0 +1,13 @@
+{
+    "name": "techwtf",
+    "version": "1.0.0",
+    "author": "Fredrik Lillejordet",
+    "license": "MIT",
+    "dependencies": {
+        "express": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ftlno/techwtf"
+    }
+}
