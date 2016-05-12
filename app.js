@@ -2,7 +2,9 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
 
-app.get('/', function(req, res) {
+app.use('/', express.static(__dirname + '/public'));
+
+app.get('/hello', function(req, res) {
     res.send('Hello world');
 });
 
